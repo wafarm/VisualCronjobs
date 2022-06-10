@@ -11,6 +11,7 @@
 		28E13AE52852F57300AB24AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E13AE42852F57300AB24AA /* ContentView.swift */; };
 		28E13AE72852F57400AB24AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E13AE62852F57400AB24AA /* Assets.xcassets */; };
 		28E13AEA2852F57400AB24AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E13AE92852F57400AB24AA /* Preview Assets.xcassets */; };
+		28E13AF22853037300AB24AA /* JobEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E13AF12853037300AB24AA /* JobEditorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		28E13AE62852F57400AB24AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E13AE92852F57400AB24AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28E13AEB2852F57400AB24AA /* Visual_Cronjobs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Visual_Cronjobs.entitlements; sourceTree = "<group>"; };
+		28E13AF12853037300AB24AA /* JobEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobEditorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				28E13AE22852F57300AB24AA /* Visual_CronjobsApp.swift */,
+				28E13AF12853037300AB24AA /* JobEditorView.swift */,
 				28E13AE42852F57300AB24AA /* ContentView.swift */,
 				28E13AE62852F57400AB24AA /* Assets.xcassets */,
 				28E13AEB2852F57400AB24AA /* Visual_Cronjobs.entitlements */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28E13AE52852F57300AB24AA /* ContentView.swift in Sources */,
+				28E13AF22853037300AB24AA /* JobEditorView.swift in Sources */,
 				28E13AE32852F57300AB24AA /* Visual_CronjobsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,12 +276,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Visual Cronjobs/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.wafarm.Visual-Cronjobs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -297,12 +303,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Visual Cronjobs/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.wafarm.Visual-Cronjobs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
