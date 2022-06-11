@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Visual_CronjobsApp: App {
+    private let (status, cronJobs) = getCronJobs()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if status {
+                ContentView(jobs: cronJobs)
+            }
         }
     }
 }

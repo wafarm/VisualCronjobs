@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282C84A628542D740002A9F1 /* CrontabHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282C84A528542D740002A9F1 /* CrontabHelper.swift */; };
 		28E13AE32852F57300AB24AA /* Visual_CronjobsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E13AE22852F57300AB24AA /* Visual_CronjobsApp.swift */; };
 		28E13AE52852F57300AB24AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E13AE42852F57300AB24AA /* ContentView.swift */; };
 		28E13AE72852F57400AB24AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E13AE62852F57400AB24AA /* Assets.xcassets */; };
 		28E13AEA2852F57400AB24AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E13AE92852F57400AB24AA /* Preview Assets.xcassets */; };
 		28E13AF22853037300AB24AA /* JobEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E13AF12853037300AB24AA /* JobEditorView.swift */; };
+		28E13AF42853055200AB24AA /* CronJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E13AF32853055200AB24AA /* CronJob.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		282C84A528542D740002A9F1 /* CrontabHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrontabHelper.swift; sourceTree = "<group>"; };
 		28E13ADF2852F57300AB24AA /* Visual Cronjobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Visual Cronjobs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E13AE22852F57300AB24AA /* Visual_CronjobsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visual_CronjobsApp.swift; sourceTree = "<group>"; };
 		28E13AE42852F57300AB24AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		28E13AE92852F57400AB24AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28E13AEB2852F57400AB24AA /* Visual_Cronjobs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Visual_Cronjobs.entitlements; sourceTree = "<group>"; };
 		28E13AF12853037300AB24AA /* JobEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobEditorView.swift; sourceTree = "<group>"; };
+		28E13AF32853055200AB24AA /* CronJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronJob.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282C84A728542D8C0002A9F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28E13AE42852F57300AB24AA /* ContentView.swift */,
+				28E13AF12853037300AB24AA /* JobEditorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		28E13AD62852F57200AB24AA = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +67,10 @@
 		28E13AE12852F57300AB24AA /* Visual Cronjobs */ = {
 			isa = PBXGroup;
 			children = (
+				282C84A728542D8C0002A9F1 /* Views */,
 				28E13AE22852F57300AB24AA /* Visual_CronjobsApp.swift */,
-				28E13AF12853037300AB24AA /* JobEditorView.swift */,
-				28E13AE42852F57300AB24AA /* ContentView.swift */,
+				28E13AF32853055200AB24AA /* CronJob.swift */,
+				282C84A528542D740002A9F1 /* CrontabHelper.swift */,
 				28E13AE62852F57400AB24AA /* Assets.xcassets */,
 				28E13AEB2852F57400AB24AA /* Visual_Cronjobs.entitlements */,
 				28E13AE82852F57400AB24AA /* Preview Content */,
@@ -143,7 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28E13AE52852F57300AB24AA /* ContentView.swift in Sources */,
+				28E13AF42853055200AB24AA /* CronJob.swift in Sources */,
 				28E13AF22853037300AB24AA /* JobEditorView.swift in Sources */,
+				282C84A628542D740002A9F1 /* CrontabHelper.swift in Sources */,
 				28E13AE32852F57300AB24AA /* Visual_CronjobsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
